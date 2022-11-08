@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ilayh/.gradle/caches/transforms-3/7ad67f591f20ac212b996bf4966f9f3b/transformed/jetified-preference-v7-25.3.0.0/res/layout/preference_widget_seekbar.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.4065" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/drawable-xhdpi/ic_arrow_left.xml" value="0.2005" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.3725" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/drawable/ic_menu.xml" value="0.2625" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity.xml" value="0.38813405797101447" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_add_event.xml" value="0.264" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_app_settings.xml" value="0.2828125" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_back_to_login.xml" value="0.1" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_event_list.xml" value="0.264" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_event_presentation.xml" value="0.2851851851851852" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_events_list.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_exit.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_loading_screen.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_login.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_settings.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/activity_time_picker.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/content_main.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/events_list_activity.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/fragment_first.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/fragment_home.xml" value="0.2828125" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/fragment_second.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/login_activity.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/settings_activity.xml" value="0.2828125" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/settings_fragment.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/layout/toolbar.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/menu/menu.xml" value="0.18095238095238095" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/xml/preference.xml" value="0.20701754385964913" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/xml/preferences.xml" value="0.2828125" />
+        <entry key="..\:/Users/ilayh/AndroidStudioProjects/Application/MySchedule/app/src/main/res/xml/root_preferences.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

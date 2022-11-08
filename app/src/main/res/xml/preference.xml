@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Text sizes"
+        android:icon="@drawable/ic_baseline_message_24">
+
+        <ListPreference
+            android:key="list_name_size"
+            android:title="@string/events_name_size"
+            android:entries="@array/name_sizes_options"
+            android:entryValues="@array/name_sizes"
+            android:defaultValue="15"
+            android:summary="Select names size"/>
+        <ListPreference
+            android:key="list_time_size"
+            android:title="@string/events_time_size"
+            android:entries="@array/time_sizes_options"
+            android:entryValues="@array/time_sizes"
+            android:defaultValue="10"
+            android:summary="Select times size"/>
+
+        <ListPreference
+            android:key="list_description_size"
+            android:title="@string/events_description_size"
+            android:entries="@array/description_sizes_options"
+            android:entryValues="@array/description_sizes"
+            android:defaultValue="10"
+            android:summary="Select descriptions size"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

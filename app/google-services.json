@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2601751154",
+    "project_id": "ilay1590",
+    "storage_bucket": "ilay1590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2601751154:android:52ed43fea4cbdd883428eb",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2601751154-budkpg99hdcsuetj8vdaloeoc905gomk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfq3s_nt_sfJztOXL8wzFmAVuGk_9IVeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2601751154-budkpg99hdcsuetj8vdaloeoc905gomk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,303 @@
+@startuml
+
+title __MYAPPLICATION's Class Diagram__\n
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.DatabaseEvent {
+        - calendarDate : String
+        - description : String
+        - endHours : String
+        - endMinutes : String
+        - name : String
+        - startHours : String
+        - startMinutes : String
+        + DatabaseEvent()
+        + DatabaseEvent()
+        + convertToEvent()
+        + eventInfo()
+        + getCalendarDate()
+        + getDescription()
+        + getEndHours()
+        + getEndMinutes()
+        + getName()
+        + getStartHours()
+        + getStartMinutes()
+        + setCalendarDate()
+        + setDescription()
+        + setEndHours()
+        + setEndMinutes()
+        + setName()
+        + setStartHours()
+        + setStartMinutes()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.Date {
+        - calendar : Calendar
+        + Date()
+        + Date()
+        + getCalendarDate()
+        + getDateStringFormat()
+        + getDayDate()
+        + getDayName()
+        + getDayNumOfMonth()
+        + getDayNumOfWeek()
+        + getMonthDate()
+        + getMonthName()
+        + getNextDayDate()
+        + getPreviousDayDate()
+        + getSameCalendarDate()
+        + getYear()
+        + getYearDate()
+        + setCalendar()
+        + setDate()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.Day {
+        - events : ArrayList<Event>
+        + Day()
+        + Day()
+        + Day()
+        + addEvent()
+        + dayAfter()
+        + dayBefore()
+        + getEvents()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.Event {
+        - description : String
+        - endHours : String
+        - endMinutes : String
+        - name : String
+        - startHours : String
+        - startMinutes : String
+        + Event()
+        + Event()
+        + Event()
+        + Event()
+        + getDescription()
+        + getEndHours()
+        + getEndMinutes()
+        + getName()
+        + getStartHours()
+        + getStartMinutes()
+        + setDescription()
+        + setEndHours()
+        + setEndMinutes()
+        + setName()
+        + setStartHours()
+        + setStartMinutes()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.EventListActivity {
+        - listView : ListView
+        + addEventToData()
+        + checkValidHour()
+        + eventPresentationDialog()
+        + onBackPressed()
+        + reloadEventsFromDatabase()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.LoadingScreenActivity {
+        - progressBar : ProgressBar
+        - tvPresents : TextView
+        + progressAnimation()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.LoginActivity {
+        - TAG : String
+        - btnLogin : Button
+        - btnRegister : Button
+        - etPassword : EditText
+        - etUsername : EditText
+        - firebaseAuth : FirebaseAuth
+        + login()
+        + onBackPressed()
+        + onClick()
+        + onPointerCaptureChanged()
+        + register()
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.MainActivity {
+        {static} + UID : String
+        {static} + currentWeek : Week
+        {static} + daysContext : LinearLayout[]
+        {static} + dbReference : DatabaseReference
+        {static} + firebaseAuth : FirebaseAuth
+        {static} + maxNumOfEvents : int
+        {static} + timeToNotifyUser : long
+        {static} - TAG : String
+        - database : FirebaseDatabase
+        - friContext : LinearLayout
+        - monContext : LinearLayout
+        - satContext : LinearLayout
+        - sunContext : LinearLayout
+        - thuContext : LinearLayout
+        - toolbar : Toolbar
+        - tueContext : LinearLayout
+        {static} - tvDays : TextView[]
+        - tvDisCurrentDate : TextView
+        - tvDisCurrentMonths : TextView
+        - tvFri : TextView
+        - tvMon : TextView
+        - tvSat : TextView
+        - tvSun : TextView
+        - tvThu : TextView
+        - tvTue : TextView
+        - tvWed : TextView
+        - wedContext : LinearLayout
+        + addEventToData()
+        + addNewEvent()
+        + applySetting()
+        + checkValidHour()
+        + clearTextViews()
+        {static} + containsLetters()
+        + createNotificationChannel()
+        + eventPresentationDialog()
+        + getNotifyTimeAndInfo()
+        + handleIntent()
+        + handleUser()
+        + moveToNextWeek()
+        + moveToPreviousWeek()
+        + notifications()
+        + onBackPressed()
+        + onCreateOptionsMenu()
+        + onOptionsItemSelected()
+        + refreshScreen()
+        + reloadTextViews()
+        + reloadWeekEventsFromDatabase()
+        # onCreate()
+        # onStop()
+        - beginnersGuideScreen()
+        - eventsList()
+        - settings()
+        - showAppInfo()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.MyBroadcastReceiver {
+        {static} - TAG : String
+        + onReceive()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.ProgressBarAnimation {
+        ~ isBegin : boolean
+        - context : Context
+        - from : float
+        - progressBar : ProgressBar
+        - to : float
+        - tvPresents : TextView
+        + ProgressBarAnimation()
+        # applyTransformation()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.SettingsActivity {
+        - toolbar : Toolbar
+        # onCreate()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.SettingsFragment {
+        {static} + LIST_DESCRIPTION_SIZE : String
+        {static} + LIST_NAME_SIZE : String
+        {static} + LIST_TIME_SIZE : String
+        {static} + SWITCH_NOTIFICATIONS : String
+        {static} + descriptionSize : float
+        {static} + nameSize : float
+        {static} + timeSize : float
+        {static} + userNotify : boolean
+        {static} - SHARED_PREFS : String
+        {static} - TAG : String
+        - descriptionSizeList : Preference
+        - nameSizeList : Preference
+        - notifications : Preference
+        - preferenceChangeListener : OnSharedPreferenceChangeListener
+        - timeSizeList : Preference
+        + onCreate()
+        + onPause()
+        + onResume()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.UserNotification {
+        - description : String
+        - title : String
+        + UserNotification()
+        + onReceive()
+    }
+  }
+  
+
+  namespace com.example.myapplication {
+    class com.example.myapplication.Week {
+        - week : Day[]
+        + Week()
+        + Week()
+        + checkIfDayOnWeek()
+        {static} + fillWeekByDays()
+        + getCurrentDay()
+        + getDays()
+        + getNextWeek()
+        + previousNextWeek()
+    }
+  }
+  
+
+  com.example.myapplication.Day -up-|> com.example.myapplication.Date
+  com.example.myapplication.Event .up.|> java.io.Serializable
+  com.example.myapplication.Event -up-|> com.example.myapplication.Date
+  com.example.myapplication.EventListActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.myapplication.LoadingScreenActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.myapplication.LoginActivity .up.|> android.view.View.OnClickListener
+  com.example.myapplication.LoginActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.myapplication.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.myapplication.MyBroadcastReceiver -up-|> android.content.BroadcastReceiver
+  com.example.myapplication.ProgressBarAnimation -up-|> android.view.animation.Animation
+  com.example.myapplication.SettingsActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.myapplication.SettingsFragment -up-|> android.preference.PreferenceFragment
+  com.example.myapplication.UserNotification -up-|> android.content.BroadcastReceiver
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

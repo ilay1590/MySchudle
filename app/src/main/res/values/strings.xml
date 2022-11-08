@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">My Schedule</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="events_description_size">Events description size:</string>
+
+    <string name="events_name_size">Events name size:</string>
+
+    <string name="events_time_size">Events time size:</string>
+
+
+</resources>
